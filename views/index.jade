@@ -1,0 +1,59 @@
+extends layout
+
+block content
+	nav(role='navigation').navbar.navbar-default.navbar-fixed-top
+		div.container
+			div.navbar-header.page-scroll
+				button(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse').navbar-toggle
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a(href='#page-top').navbar-brand.page-scroll One Page Template
+
+			div.collapse.navbar-collapse.navbar-ex1-collapse
+				ul.nav.navbar-nav
+					li.hidden
+						a(href='#page-top').page-scroll
+					li
+						a(href='#about').page-scroll About Us
+					li
+						a(href='#services').page-scroll Services
+					li
+						a(href='#contact').page-scroll Contact
+
+	section(id='intro').intro-section
+		div.container
+			div.row
+				div.col-lg-12
+					h1 Scrolling nav
+					p
+						strong Instrucciones
+
+	section(id='about').about-section
+		div.container
+			div.row
+				div.col-lg-12
+					h1 About Section
+
+
+	section(id='services').services-section
+		div.container
+			div.row
+				div.col-lg-12
+					h1 Services Section
+
+
+	section(id='contact').contact-section
+		div.container
+			div.row
+				div.col-lg-12
+					h1 Contact Section
+
+	script(src='/jquery/dist/jquery.js')
+	script(src='/bootstrap/dist/js/bootstrap.min.js')
+	script(src='/jquery.easing/js/jquery.easing.min.js')
+	script(src='/javascripts/scrolling-nav.js')
+
+
+
