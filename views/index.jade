@@ -2,25 +2,25 @@ extends layout
 
 block content
 	nav(role='navigation').navbar.navbar-default.navbar-fixed-top
-		div.container
-			div.navbar-header.page-scroll
-				button(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse').navbar-toggle
-					span.sr-only Toggle navigation
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
-				a(href='#page-top').navbar-brand.page-scroll One Page Template
+		div.col-md-8.col-md-offset-2
+				div.navbar-header.page-scroll
+					button(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse').navbar-toggle
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a(href='#page-top').navbar-brand.page-scroll One Page Template
 
-			div.collapse.navbar-collapse.navbar-ex1-collapse
-				ul.nav.navbar-nav
-					li.hidden
-						a(href='#page-top').page-scroll
-					li
-						a(href='#about').page-scroll About Us
-					li
-						a(href='#services').page-scroll Services
-					li
-						a(href='#contact').page-scroll Contact
+				div.collapse.navbar-collapse.navbar-ex1-collapse
+					ul.nav.navbar-nav.pull-right
+						li.hidden
+							a(href='#page-top').page-scroll
+						li
+							a(href='#about').page-scroll About Us
+						li
+							a(href='#services').page-scroll Services
+						li
+							a(href='#contact').page-scroll Contact
 
 	section(id='intro').intro-section
 		div.container
