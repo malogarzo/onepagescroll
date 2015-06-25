@@ -14,7 +14,7 @@ html {
     height: 100%;
 }
 
-@media(min-width:768px) {
+@media(min-width:767px) {
     .navbar {
         padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -25,6 +25,11 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
+}
+
+
+.navbar-brand .page-scroll {
+    height: 120px;
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.

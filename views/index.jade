@@ -2,25 +2,28 @@ extends layout
 
 block content
 	nav(role='navigation').navbar.navbar-default.navbar-fixed-top
-		div.col-md-8.col-md-offset-2
+		div.container
 				div.navbar-header.page-scroll
 					button(type='button', data-toggle='collapse', data-target='.navbar-ex1-collapse').navbar-toggle
 						span.sr-only Toggle navigation
 						span.icon-bar
 						span.icon-bar
 						span.icon-bar
-					a(href='#page-top').navbar-brand.page-scroll One Page Template
+					a(href='#page-top').navbar-brand.page-scroll
+						img(src="/images/om-logo.png")
 
 				div.collapse.navbar-collapse.navbar-ex1-collapse
 					ul.nav.navbar-nav.pull-right
 						li.hidden
 							a(href='#page-top').page-scroll
 						li
-							a(href='#about').page-scroll About Us
+							a(href='#about').page-scroll Espacio
 						li
-							a(href='#services').page-scroll Services
+							a(href='#services').page-scroll Propuesta
 						li
-							a(href='#contact').page-scroll Contact
+							a(href='#contact').page-scroll Novedades
+						li
+							a(href='#contact').page-scroll Novedades	
 
 	section(id='intro').intro-section
 		div.container
@@ -29,12 +32,14 @@ block content
 					h1 Scrolling nav
 					p
 						strong Instrucciones
+					a(href='#about').btn.btn-default.page-scroll  Click Me to Scroll Down!
 
 	section(id='about').about-section
 		div.container
 			div.row
 				div.col-lg-12
-					h1 About Section
+					h1 Espacio
+					p Om es un espacio abierto para aquellos que buscan Armonía, conocimiento interior; desarrollo y crecimiento personal.
 
 
 	section(id='services').services-section
